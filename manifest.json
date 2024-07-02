@@ -1,0 +1,13 @@
+{
+    "entry": "LevelExp.js",
+    "name": "LevelExp",
+    "type": "lse-quickjs",
+    "author": "MineFeng",
+    "description": "普普通通的等级系统",
+    "version": "1.3.0",
+    "dependencies": [
+        {
+            "name": "legacy-script-engine-quickjs"
+        }
+    ]
+}
