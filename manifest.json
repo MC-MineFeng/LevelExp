@@ -1,0 +1,22 @@
+{
+    "entry": "LevelExp.js",
+    "name": "LevelExp",
+    "type": "lse-quickjs",
+    "version": "1.4.3",
+    "author": "MineFeng",
+    "description": "普通的等级系统",
+    "extraInfo": {
+        "Github": "无"
+    },
+    "dependencies": [
+        {
+            "name": "GMLIB"
+        },
+        {
+            "name": "GMLIB-LegacyRemoteCallApi"
+        },
+        {
+            "name": "legacy-script-engine-quickjs"
+        }
+    ]
+}
