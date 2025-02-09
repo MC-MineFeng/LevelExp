@@ -1,0 +1,423 @@
+{
+		"consume.totem": "§l§f[ §e全服消息 §f]",
+
+		"info.text1": "§l----- 查询玩家信息 -----",
+		"info.text2": "§b查询玩家",
+		"info.text3": "§b经验值",
+		"info.text4": "§b总血量",
+		"info.text5": "§b属性点",
+		"info.text6": "§b攻击力",
+		"info.text7": "§b防御力",
+		"info.text8": "§b幸运值",
+		"info.text9": "§b注册时间",
+
+		"info.admin1": "(仅玩家)",
+		"info.admin2": "(限后台)",
+
+		"info.textadd": "添加",
+		"info.textdel": "减少",
+		"info.textset": "设置",
+
+		"info.texta": "杀死",
+		"info.textb": "破坏",
+		"info.textc": "放置",
+		"info.textd": "吃下",
+
+
+		"load.plugins": "已加载 %% 个扩展!!!",
+		"papi.install.warn": "注册PAPI变量失败，有可能是扩展插件出现错误，跳过...",
+
+		"attack.entity.tell": "§l§a(!) §e你对 §f%% §e造成 §c%% §e点伤害 §a(!)",
+		"attack.entity.advanced": "§l§aLV.%% §7%% §4被 §aLV.%% §f%% §4越阶击杀!!",
+		"attack.entity.ordinary": "§l§aLV.%% §7%% §d被 §aLV.%% §f%% §d击杀了!!",
+
+		"play.death.level": "§l§c你已死亡被扣除 §6LV -%% §c!!",
+		"play.death.exp": "§l§c你已死亡被扣除 §6Exp -%% §c!!",
+
+		"play.attack.bossbar": "§l§a生命值§f: §7%%/%%",
+
+
+		"playlog.kill.log": "§aLV.%% §f%% §e杀死敌人 §b获得默认经验 §c+%% §b!!",
+		"playlog.break.log": "§aLV.%% §f%% §d破坏方块 §b获得默认经验 §c+%% §b!!",
+		"playlog.place.log": "§aLV.%% §f%% §d放置方块 §b获得默认经验 §c+%% §b!!",
+		"playlog.ateitem.log": "§aLV.%% §f%% §d吃下食物 §b获得默认经验 §c+%% §b!!",
+		"playlog.erience.log": "§aLV.%% §f%% §d捡起经验 §b获得默认经验 §c+%% §b!!",
+		"playlog.exp.erience.info": "§aLV.%% §f%% §b获得 §d掉落 §b的经验 §c+%% §b!!",
+		"playlog.yes.exp.info": "§aLV.%% §f%% §e%% §d%% §b获得经验 §c+%% §b!!",
+		"playlog.not.exp.info": "§aLV.%% §f%% §e%% §4的 §d%% §4不获得经验 !!",
+		"playlog.consume.totem": "§l§aLV.%% §f%% §e消耗了 §c1 §e个不死图腾 !!",
+		"playlog.death.level": "§aLV.%% §f%% §c已死亡被扣除 §6LV -%% §c!!",
+		"playlog.death.exp": "§aLV.%% §f%% §c已死亡被扣除 §6Exp -%% §c!!",
+		"playlog.info.play": "§aLV.%% §f%% §b正在查询 §e%% §b的信息 !!",
+		"playlog.play.updata": "§l玩家 %% 数据已更新至: %% !!",
+		"playlog.play.delete": "§l玩家 %% 的数据已被删除 !!",
+
+
+		"broadcast.left.info": "§l§aLV.%% §f%% §e已退出了服务器!!",
+		"broadcast.join.info": "§l§aLV.%% §f%% §a已进入了服务器!!",
+		"broadcast.prejoin.info": "§l§a玩家 §f%% §a首次进入服务器!!",
+
+		"levelup.title1": "§l§d↑↑ §fLevel UP §d↑↑",
+		"levelup.title2": "§l§eLV.%% §f=> §dLV.%%",
+
+		"levelup.tell1": "§l§f=========================",
+		"levelup.tell2": "§l| §a恭喜你升级了!!",
+		"levelup.tell3": "§l| §b现在等级为 §f=> §aLV.%%",
+		"levelup.tell4": "§l| §e获得以下升级奖励: ",
+		"levelup.tell5": "§l| §6%%",
+		"levelup.tell6": "§l§f=========================",
+
+		"levelup.broadcast": "§b恭喜玩家 §f%% §b升级至 §aLV.%% §b!!",
+		"levelup.toastchat": "§l§a恭喜玩家 §f%% §a升级到了 §f=> §bLV.%% §b!!",
+		"levelup.play.give": "§a玩家 §f%% §a升级了,获得奖励§f: §e%% §a!!",
+
+		"play.absent.create": "玩家 %% 的等级不存在，正在新建...",
+
+
+		"command.load.error1": "注册命令失败！",
+		"command.load.error2": "请检查命令是否被其他插件注册！",
+
+		"command.play.error": "此命令仅限玩家执行!!",
+		"command.permission.no": "此命令仅限控制台执行",
+
+		"command.play.input": "请输入玩家名!!",
+		"command.play.info.no": "玩家 [ %% ] 的XUID获取失败!",
+
+
+		"command.reload.info": "---配置文件重载完成---",
+		"command.remove.info": "§l§c您的等级数据被管理员删除!!",
+		"command.remove.play": "已删除 [ %% ] 的等级数据!!",
+		"command.levelup.true": "已开启自动升级，无需使用此命令",
+		"command.levelup.not.exp": "§c经验不足，无法升级, 还需要§6 %% §c!!",
+
+
+		"command.enter.quantity": "请输入数量!!",
+		"command.limit.reached": "玩家 %% 等级已达到上限!!",
+		"command.must.exist": "输入的数量必须在 1 ~ %% 之内!!",
+
+		"command.level.add": "已添加 [ %% ] 的等级为 [ %% ], 当前 [ %% ] !!",
+		"command.level.del": "已减少 [ %% ] 的等级为 [ %% ], 当前 [ %% ] !!",
+		"command.level.set": "已设置 [ %% ] 的等级为 [ %% ], 当前 [ %% ] !!",
+
+		"command.exp.add": "已添加 [ %% ] 的经验为 [ %% ], 当前 [ %% ] !!",
+		"command.exp.del": "已减少 [ %% ] 的经验为 [ %% ], 当前 [ %% ] !!",
+		"command.exp.set": "已设置 [ %% ] 的经验为 [ %% ], 当前 [ %% ] !!",
+
+		"command.health.add": "已添加 [ %% ] 的血量为 [ %% ], 当前 [ %% ] !!",
+		"command.health.del": "已减少 [ %% ] 的血量为 [ %% ], 当前 [ %% ] !!",
+		"command.health.set": "已设置 [ %% ] 的血量为 [ %% ], 当前 [ %% ] !!",
+
+		"command.points.add": "已添加 [ %% ] 的属性点为 [ %% ], 当前 [ %% ] !!",
+		"command.points.del": "已减少 [ %% ] 的属性点为 [ %% ], 当前 [ %% ] !!",
+		"command.points.set": "已设置 [ %% ] 的属性点为 [ %% ], 当前 [ %% ] !!",
+
+		"command.incomplete.bug": "获取对象失败, 或者是命令不完整!",
+
+
+		"form.main.menu.title": "§l§f===== [ §a等级系统 §f] =====",
+		"form.main.menu.content": "§l§d尊敬的 §aLV.%% §f%% §d欢迎您回来!! \n \n§b请选择需要的操作： ",
+		"form.main.menu.button1": "§l§f-=§6升级§f=-\n%%",
+		"form.main.menu.button2": "§l§a我的等级",
+		"form.main.menu.button3": "§l§d排 行 榜",
+		"form.main.menu.button4": "§l§e更多功能",
+		"form.main.menu.button5": "§l§4修改玩家",
+		"form.main.menu.button6": "§l§6配置文件",
+
+		"form.main.menu.return.txt": "§l§e已开启自动升级§f|§e无需升级",
+		"form.main.menu.not.enough": "§c经验不足，无法升级, 还需要§6 %% §c!!",
+		"form.main.menu.not.experience": "§l§c经验不足§f|§c无法升级",
+
+
+		"form.play.Information.title": "§l§f===== [ 个人信息 ] =====",
+		"form.play.Information.cons1": "\n | §b玩家名: §aLV.%% §f%%  §f[ §5%% §f]",
+		"form.play.Information.cons2": "\n | §b经验值: §f[ §6%% §f/ §e%% §f]",
+		"form.play.Information.cons3": "\n | §b总血量: §f[ §c%% §f] %%",
+		"form.play.Information.cons4": "\n | §b属性点: §f[ §d%% §f] %%",
+		"form.play.Information.cons5": "\n | §b攻击力: §f[ §6%% §f] %%",
+		"form.play.Information.cons6": "\n | §b防御力: §f[ §3%% §f] %%",
+		"form.play.Information.cons7": "\n | §b幸运值: §f[ §4%% §f] %%",
+
+		"form.play.Information.content": "§l§f个人信息如下: %%\n\n %%",
+		"form.play.Information.button1": "§l§f血量 §f[§6%%§f/§4%%§f]\n§e点击加点",
+		"form.play.Information.button2": "§l§f攻击 §f[§6%%§f/§4%%§f]\n§e点击加点",
+		"form.play.Information.button3": "§l§f防御 §f[§6%%§f/§4%%§f]\n§e点击加点",
+		"form.play.Information.button4": "§l§f幸运 §f[§6%%§f/§4%%§f]\n§e点击加点",
+
+		"form.play.attributes": "§l§f=== §c你的属性点不足 §f===",
+		"form.play.add.health": "§l§f=== §a血量添加成功 §f===",
+		"form.play.add.attack": "§l§f=== §a攻击添加成功 §f===",
+		"form.play.add.defence": "§l§f=== §a防御添加成功 §f===",
+		"form.play.add.luck": "§l§f=== §a幸运添加成功 §f===",
+		"form.play.upper.limit": "§l§f=== §c已达上限 §f===",
+
+
+		"form.more.function.title": "§l§f===== §d[ §a更多功能 §d] §f=====",
+		"form.more.function.content": "§l§b请选择：",
+		"form.more.function.button1": "§l§6经验转账",
+		"form.more.function.button2": "§l§5查询玩家",
+		"form.more.function.button3": "§l§f重置属性",
+		"form.more.function.button4": "§l§4删号重练",
+		"form.more.function.confirm": "§l§b上一页",
+		"form.more.function.close": "§l§c关闭",
+
+
+		"form.transfer.title": "§l§f===== §d[ §6经验转账 §d] §f=====",
+		"form.transfer.label": "§l§a你的经验剩余： §f[ §e%% §f/ §d%% §f]",
+		"form.transfer.dropdown": "§l§e向指定玩家转账， §b当前模式： §c%%",
+		"form.transfer.offline": "§l§d请输入离线玩家§e(模糊)： §c%%",
+		"form.transfer.input": "§l§f输入转账经验点： %%",
+
+		"form.transfer.obtain.error": "§l§c获取玩家对象失败!!",
+		"form.transfer.input.offline": "§l§c请输入离线玩家名!!",
+		"form.transfer.lack.experience": "§l§c你的经验点不足!!",
+		"form.transfer.overtake.zero": "§l§c转账经验必须大于0!!",
+
+		"form.transfer.play.error": "§l§4获取玩家Xuid失败!!",
+		"form.transfer.not.give.yu": "§l§4不能给自己转账!煞笔ಥ_ಥ!",
+
+		"form.transfer.error1": "§l§cDEL出现错误,转账失败!!",
+		"form.transfer.error2": "§l§cADD出现错误,转账失败!!",
+
+		"form.transfer.success.notice": "§a成功向§f %% §a转账§6 %% §e点经验!!",
+		"form.transfer.topl.notice": "§a玩家 §f%% §a向你转账 §d%% §e点经验§a!!",
+
+
+		"form.gueryinfo.title": "§l§f====== [ §a查询玩家 §f] ======",
+		"form.gueryinfo.confirm": "§l§b上一页",
+		"form.gueryinfo.reducmy": "§e你的§6金币§e不足！ 无法查询玩家!",
+
+
+		"form.reset.switch": "§e管理员已关闭 §c重置 §e系统!!",
+		"form.reset.title": "§l§f===== §d[ §c重置属性 §d] §f=====",
+		"form.reset.content": "§l§b请选择需要重置的属性：",
+		"form.reset.button1": "§l  §b重置§f[§d血量§f]§b属性\n§a价格：§6%%",
+		"form.reset.button2": "§l  §b重置§f[§d攻击§f]§b属性\n§a价格：§6%%",
+		"form.reset.button3": "§l  §b重置§f[§d防御§f]§b属性\n§a价格：§6%%",
+		"form.reset.button4": "§l  §b重置§f[§d幸运§f]§b属性\n§a价格：§6%%",
+		"form.reset.play.content1": "§l§b你确认要重置 §d血量属性 §b吗？？",
+		"form.reset.play.content2": "§l§b你确认要重置 §d攻击属性 §b吗？？",
+		"form.reset.play.content3": "§l§b你确认要重置 §d防御属性 §b吗？？",
+		"form.reset.play.content4": "§l§b你确认要重置 §d幸运属性 §b吗？？",
+		"form.reset.pay.yes1": "§a已重置§b血量属性§a被扣除 §e%% §a金币!!",
+		"form.reset.pay.yes2": "§a已重置§b攻击属性§a被扣除 §e%% §a金币!!",
+		"form.reset.pay.yes3": "§a已重置§b防御属性§a被扣除 §e%% §a金币!!",
+		"form.reset.pay.yes4": "§a已重置§b幸运属性§a被扣除 §e%% §a金币!!",
+		"form.reset.attribute": "§e你当前的 §d属性 §e无需进行重置!!",
+		"form.reset.not.enough": "§c你的 §6金币 §c不足够，无法重置!!",
+		"form.reset.confirm1": "§l§b上一页",
+		"form.reset.confirm2": "§l§a确认",
+		"form.reset.close": "§l§c关闭",
+
+
+		"form.delete.code.switch": "§e管理员已关闭 §c删号 §e系统!!",
+		"form.delete.code.title": "§l§f===== §d[ §c删号重练 §d] §f=====",
+		"form.delete.code.prompt": "§l§d尊敬的 §aLV.%% §f%% §d您好!!\n\n§l§e您是否确认要 §4删除 §e您的等级数据!!\n\n§l§b此操作无法恢复您的数据!!\n\n§l§a你的验证码是：§6 %% \n",
+		"form.delete.code.input": "§l§f请输入验证码： %%",
+		"form.delete.code.error": "§l§c验证码错误!!",
+		"form.delete.play.content": "§l§e您确认要删除等级数据吗？\n\n§b删除数据后会将你踢出游戏!!\n\n§d再次进入游戏将重新建立数据!!",
+		"form.delete.play.kick": "§l§c您的等级数据已被删除!!",
+
+
+		"form.levellist.title": "§l§f===== §d[ §a等级排行榜 §d] §f=====",
+		"form.levellist.confirm": "§l§b上一页",
+		"form.levellist.close": "§l§c关闭",
+
+
+		"form.office.edit.title": "§l§f===== [ 修改玩家等级 ] =====",
+		"form.office.edit.online": "§l§e请选择指定玩家(在线)",
+		"form.office.edit.play1": "§l§d请输入玩家名(离线) %%",
+		"form.office.edit.wren": "§l§c获得玩家Xuid对象失败!",
+		"form.office.edit.play2": "§l§c请输入离线玩家ID!",
+
+
+		"form.site.select.title": "§l§f===== [ 选择离线玩家 ] =====",
+		"form.site.select.label": "§l§a请在下列选择目标玩家!",
+		"form.site.select.play": "§l§e请选择玩家 %%",
+		"form.site.wren.play": "§l§c获得玩家Xuid对象失败!",
+
+
+		"form.edit.select.title": "§l§f===== §d[ §c选择修改模式 §d] §f=====",
+		"form.edit.select.content": "§l§e当前正在修改: §f%% \n\n§b请选择模式：",
+		"form.edit.select.button1": "§l§d指定修改",
+		"form.edit.select.button2": "§l§e更多修改",
+		"form.edit.select.confirm": "§l§b上一页",
+
+
+		"form.edit.play.title": "§l§f===== [ 修改玩家等级 ] =====",
+		"form.edit.wewe.info": "§a正在修改: §f%%",
+		"form.edit.numer.exp": "§e当前： §f[ §6%%§f/§e%% §f]",
+		"form.edit.numer.info": "§e当前： §f[ §c%% §f]",
+		"form.edit.mine1": "§l§e注意!修改请注意不要乱修因为没有限制!\n\n%%",
+		"form.edit.mine2": "§l§f输入等级 §d|§f %%",
+		"form.edit.mine3": "§l§f输入经验 §d|§f %%",
+		"form.edit.mine4": "§l§f输入属性点 §d|§f %%",
+		"form.edit.mine5": "§l§f输入总血量 §d|§f %%",
+		"form.edit.mine6": "§l§f输入攻击力 §d|§f %%",
+		"form.edit.mine7": "§l§f输入防御力 §d|§f %%",
+		"form.edit.mine8": "§l§f输入幸运值 §d|§f %%",
+		"form.edit.updata.uuid": "§e玩家§f %% §e数据已更新！",
+		"form.edit.data.points": "§l§e已修改玩家§f %% §e属性为 §f>>§d %%",
+
+
+		"form.set.player.title":  "§l§f===== [ 修改玩家等级 ] =====",
+		"form.set.player.level":  "\n | §b玩家名: §aLV.%% §f%%",
+		"form.set.player.exp":    "\n | §b经验值: §f[ §6%% §f/ §e%% §f] §f[ §5%% §f]",
+		"form.set.player.health": "\n | §b总血量: §f[ §c%% §f]",
+		"form.set.player.points": "\n | §b属性点: §f[ §d%% §f]",
+		"form.set.player.attack": "\n | §b攻击力: §f[ §6%% §f]",
+		"form.set.player.defence":"\n | §b防御力: §f[ §3%% §f]",
+		"form.set.player.luck":   "\n | §b幸运值: §f[ §4%% §f]",
+
+		"form.set.player.warn": "§l§e注意!修改请注意不要乱修因为没有限制!\n\n§f以下是目标玩家信息: %%",
+		"form.set.player.attribute": "§l§e请选择属性 ",
+		"form.set.player.mode": "§l§b请选择模式 ",
+		"form.set.player.number": "§l§d请输入数量: %%",
+		"form.set.number.no.error": "§c你没有输入数量!!",
+		"form.set.number.min.error": "§c数量不能小于零!!",
+		"form.set.number.add": "§a添加成功!!",
+		"form.set.number.del": "§a减少成功!!",
+		"form.set.number.set": "§a设置成功!!",
+
+
+		"permission.info": "§c你没有权限使用此功能!!",
+		"select.return.input": "§l§e选择§f[开启] §f-- §d输入§f[关闭]",
+		"current.return.init": "§l§e当前§f[开启] §d-- §b返回§f[关闭]\n \n",
+
+
+		"form.configuration.title": "§l§f===== §d[ §a修改配置文件 §d] §f=====",
+		"form.configuration.content": "§l§d尊敬的管理员 §f%% §d欢迎您 ！\n\n§b请选择：",
+		"form.configuration.info_0": "§l§d等级升级配置",
+		"form.configuration.info_1": "§l§f常规基础配置",
+		"form.configuration.info_2": "§l§e属性上限设置",
+		"form.configuration.info_3": "§l§f基础开关配置",
+		"form.configuration.info_4": "§l§a列表显示设置",
+		"form.configuration.info_5": "§l§f经验声音配置",
+		"form.configuration.info_6": "§l§f升级声音配置",
+		"form.configuration.info_7": "§l§f死亡事件配置",
+		"form.configuration.info_8": "§l§c攻击伤害配置",
+		"form.configuration.info_9": "§l§f死亡图腾配置",
+		"form.configuration.info_10": "§l§f食物事件配置",
+		"form.configuration.info_11": "§l§f杀敌事件配置",
+		"form.configuration.info_12": "§l§f破坏事件配置",
+		"form.configuration.info_13": "§l§f放置事件配置",
+		"form.configuration.info_14": "§l§f经验事件配置",
+
+
+		"form.levelexp.title": "§l====== 升级方式修改 ======",
+		"form.levelexp.mymode": "§l升级模式， §e当前: §c%%",
+		"form.levelexp.limit.exp": "§l所需经验: 如[递增]:(200*2=400)",
+		"form.levelexp.autoup": "§l是否自动升级",
+		"form.levelexp.not.zero": "§l升级后归零经验§f[§c谨慎使用§f]",
+
+
+		"form.foundation.title": "§l===== [ 基础配置 ] =====",
+		"form.foundation.lands": "§l请选择语言,当前: §e%% §f[§c多语言§f]",
+		"form.foundation.gm_tell": "§l插件头部显示",
+		"form.foundation.logbook": "§lLOG记录开关",
+		"form.foundation.consolelog": "§l§b控制台信息开关§f[§c不建议使用§f]",
+		"form.foundation.resetting": "§l允许玩家重置属性",
+		"form.foundation.deletion": "§l§e允许玩家删除账号§f[§c删号§f]",
+
+
+		"form.value.limit.title": "§l===== [ 属性上限配置 ] =====",
+		"form.value.limit.minlevel": "§l最小等级下限",
+		"form.value.limit.maxlevel": "§l最大等级上限",
+		"form.value.limit.health": "§l最大血量上限",
+		"form.value.limit.attack": "§l最大攻击上限",
+		"form.value.limit.defence": "§l最大防御上限",
+		"form.value.limit.luck": "§l最大幸运上限",
+		"form.value.limit.points": "§l最大属性点上限",
+		"form.value.resetting": "§l重置属性点单价",
+		"form.value.infoconsue": "§l消耗金币查询玩家",
+
+
+		"form.base.title": "§l===== [ 基础开关配置 ] =====",
+		"form.base.enable.accura": "§l防精准采集开关",
+		"form.base.enable.iland": "§l领地防护的开关",
+		"form.base.enable.demamd": "§l攻击BOSS显示",
+		"form.base.enable.toast": "§l成就消息开关",
+		"form.base.enable.join": "§l进入游戏显示",
+		"form.base.enable.left": "§l退出游戏显示",
+
+
+		"form.attack.title": "§l===== [ 攻击事件配置 ] =====",
+		"form.attack.entity.switch": "§l生物伤害自定义开关",
+		"form.attack.player.switch": "§l玩家伤害自定义开关",
+		"form.attack.playmin": "§l§e获得最低攻击伤害",
+		"form.attack.advanced": "§l§d越阶§f击杀获得经验",
+		"form.attack.ordinary": "§l§e普通§f击杀获得经验",
+
+
+		"form.display.title": "§l===== [ 列表显示配置 ] =====",
+		"form.display.switch": "§l玩家列表显示开关",
+		"form.display.input1": "§l记分板名称",
+		"form.display.input2": "§l显示名称",
+
+
+		"form.sound.exp.title": "§l===== [ 经验声音配置 ] =====",
+		"form.sound.exp.enable": "§l经验提示音开关",
+		"form.sound.exp.wew": "§l提示音",
+
+
+		"form.sound.level.title": "§l===== [ 升级声音配置 ] =====",
+		"form.sound.level.enable": "§l升级提示音开关",
+		"form.sound.level.wew": "§l提示音",
+
+
+		"form.death.title": "§l===== [ 死亡事件配置 ] =====",
+		"form.death.switch": "§l是否开启死亡扣除",
+		"form.death.mode": "§l被扣除的模式,当前: §e%%",
+		"form.death.max": "§l最大扣除值",
+		"form.death.min": "§l最小扣除值",
+
+
+		"form.totem.title": "§l===== [ 图腾事件配置 ] =====",
+		"form.totem.switch": "§l消耗不死图腾开关",
+		"form.totem.notice": "§l消耗图腾全服公告",
+		"form.totem.default": "§l默认经验",
+
+
+		"form.ateevent.title": "§l===== [ 食物事件配置 ] =====",
+		"form.ateevent.switch": "§l吃东西是否获得经验",
+		"form.ateevent.enable": "§l是否获得默认经验",
+		"form.ateevent.default": "§l默认经验",
+
+
+		"form.mobdie.title": "§l===== [ 杀敌事件配置 ] =====",
+		"form.mobdie.switch": "§l杀死生物是否获得经验",
+		"form.mobdie.enable": "§l是否获得默认经验",
+		"form.mobdie.default": "§l默认经验",
+
+
+		"form.break.title": "§l===== [ 破坏事件配置 ] =====",
+		"form.break.switch": "§l破坏是否获得经验",
+		"form.break.enable": "§l是否获得默认经验",
+		"form.break.default": "§l默认经验",
+
+
+		"form.place.title": "§l===== [ 放置事件配置 ] =====",
+		"form.place.switch": "§l放置是否获得经验",
+		"form.place.enable": "§l是否获得默认经验",
+		"form.place.default": "§l默认经验",
+
+
+		"form.experience.title": "§l===== [ 经验事件配置 ] =====",
+		"form.experience.switch": "§l掉落是否获得经验",
+		"form.experience.enable": "§l是否获得默认经验",
+		"form.experience.default": "§l默认经验",
+
+
+		"clue.text": "§l提示",
+		"clue.info": "§l§a操作已保存!",
+		"confirm.info": "§l§b上一页",
+		"confirm.once": "§l§a确认",
+		"close.info": "§l§c关闭",
+
+
+		"play.object.warn": "获取对象 [ %% ] 失败",
+
+
+		"papi.install.warn1": "加载插件失败！找不到前置库 GMLIB LegacyRemoteCallApi！",
+		"papi.install.warn2": "请安装GMLIB LegacyRemoteCallApi！",
+		"papi.install.load.ok": "注册PAPI变量完毕"
+}
