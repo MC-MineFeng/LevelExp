@@ -12,7 +12,7 @@
             "plugin"
         ]
     },
-    "asset_url": "https://github.com/MC-MineFeng/LevelExp/releases/download/1.4.3/LevelExp-v3-.v1.4.3.zip",
+    "asset_url": "https://github.com/MC-MineFeng/LevelExp/releases/download/v1.4.3/LevelExp-v3-.v1.4.3.zip",
     "prerequisites": {
         "github.com/LiteLDev/LeviLamina": "1.0.x"
     },
