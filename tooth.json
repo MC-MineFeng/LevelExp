@@ -6,6 +6,7 @@
         "name": "LevelExp",
         "description": "自定义等级系统!",
         "author": "MineFeng",
+        "source": "github.com/MC-MineFeng/LevelExp",
         "tags": [
             "levilamina",
             "library",
